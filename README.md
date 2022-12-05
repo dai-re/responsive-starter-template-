@@ -7,6 +7,12 @@ responsive template html and css
 - main content 
 - 3 footer
 
+download
+
+```bash 
+git clone http://daire.eu.org/responsive-starter-template-.git
+```
+
 `demo` http://daire.eu.org/responsive-starter-template-/
 
 ### dekstop 
