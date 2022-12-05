@@ -9,7 +9,7 @@ responsive template html and css
 
 clone
 ```bash 
-git clone hhttps://github.com/dai-re/responsive-starter-template-.git
+git clone https://github.com/dai-re/responsive-starter-template-.git
 ```
 download
 [HERE](https://github.com/dai-re/responsive-starter-template-/releases/tag/Zip)
