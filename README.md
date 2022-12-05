@@ -7,11 +7,12 @@ responsive template html and css
 - main content 
 - 3 footer
 
-download
-
+clone
 ```bash 
 git clone http://daire.eu.org/responsive-starter-template-.git
 ```
+download
+[HERE](https://github.com/dai-re/responsive-starter-template-/releases/tag/Zip)
 
 `demo` http://daire.eu.org/responsive-starter-template-/
 
