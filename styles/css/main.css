@@ -1,0 +1,183 @@
+/* line 1, /stdin */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 5, /stdin */
+:root {
+  --color1: #4eb3cc;
+  --color2: #8ad2e4;
+  --color3: #a888ec;
+  --color4: #d277d8;
+}
+
+/* line 12, /stdin */
+body .container {
+  width: 100%;
+}
+
+/* line 14, /stdin */
+body .container nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* tiggi nav */
+  grid-template-rows: 3em;
+  grid-area: nav;
+}
+
+/* line 20, /stdin */
+body .container nav .left {
+  /* kiri */
+  padding: 0 0 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: var(--color1);
+}
+
+/* line 28, /stdin */
+body .container nav .middle {
+  /* tengah */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color2);
+}
+
+/* line 35, /stdin */
+body .container nav .right {
+  /* kanan */
+  padding: 0 1em 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: var(--color1);
+}
+
+/* line 44, /stdin */
+body .container .sidenav {
+  display: none;
+  grid-area: snav;
+}
+
+/* line 48, /stdin */
+body .container .main {
+  width: 100%;
+  min-height: 80vh;
+  background: var(--color3);
+  /* code semua content ditengah */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  grid-area: main;
+}
+
+/* line 59, /stdin */
+body .container footer {
+  background: var(--color1);
+  /* code semua content ditengah */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  grid-area: footer;
+}
+
+/* line 67, /stdin */
+body .container footer .footer2 {
+  width: 100%;
+  min-height: 11em;
+  background: var(--color2);
+  /* code semua content ditengah */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 77, /stdin */
+body .container footer .footer3 {
+  width: 100%;
+  min-height: 11em;
+  background: var(--color3);
+  /* code semua content ditengah */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 87, /stdin */
+body .container footer .footer4 {
+  width: 100%;
+  min-height: 4em;
+  background: var(--color1);
+  /* code semua content ditengah */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 640px) {
+  /* line 102, /stdin */
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 106, /stdin */
+  body .container {
+    max-width: 600px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 113, /stdin */
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 118, /stdin */
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* line 122, /stdin */
+  body .container {
+    max-width: 800px;
+    display: grid;
+    grid-auto-columns: 8em 1fr;
+    grid-template-areas: "nav nav" "snav main" "footer footer";
+  }
+  /* line 130, /stdin */
+  body .container .sidenav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 9em;
+    background: var(--color4);
+  }
+  /* line 138, /stdin */
+  body .container footer {
+    background: var(--color1);
+    /* code semua content ditengah */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  /* line 155, /stdin */
+  .container {
+    max-width: 800px;
+  }
+}
+
+/*# sourceMappingURL=file */
