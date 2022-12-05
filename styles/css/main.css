@@ -121,41 +121,42 @@ body .container footer .footer4 {
   flex-direction: column;
 }
 
+/* responsive code || media query*/
 @media only screen and (min-width: 640px) {
-  /* line 102, /stdin */
+  /* line 104, /stdin */
   body {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  /* line 106, /stdin */
+  /* line 108, /stdin */
   body .container {
     max-width: 600px;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 113, /stdin */
+  /* line 115, /stdin */
   .container {
     max-width: 700px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 118, /stdin */
+  /* line 120, /stdin */
   body {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  /* line 122, /stdin */
+  /* line 124, /stdin */
   body .container {
-    max-width: 800px;
+    max-width: 900px;
     display: grid;
     grid-auto-columns: 8em 1fr;
     grid-template-areas: "nav nav" "snav main" "footer footer";
   }
-  /* line 130, /stdin */
+  /* line 132, /stdin */
   body .container .sidenav {
     display: flex;
     align-items: center;
@@ -164,7 +165,7 @@ body .container footer .footer4 {
     width: 9em;
     background: var(--color4);
   }
-  /* line 138, /stdin */
+  /* line 140, /stdin */
   body .container footer {
     background: var(--color1);
     /* code semua content ditengah */
@@ -174,9 +175,9 @@ body .container footer .footer4 {
 }
 
 @media only screen and (min-width: 1280px) {
-  /* line 155, /stdin */
+  /* line 157, /stdin */
   .container {
-    max-width: 800px;
+    max-width: 1000px;
   }
 }
 
